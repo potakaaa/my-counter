@@ -12,6 +12,9 @@ const App = () => {
     count === 0 ? null : setCount(count - 1);
   }
 
+  console.log("Hello, Mark!");
+  console.log("Hello, Jesreal!");
+
   return (
     <div id="container" className="flex justify-center items-center h-screen">
       <div className="size-2/3 bg-zinc-900 rounded-xl shadow-xl flex justify-center items-center gap-10">
